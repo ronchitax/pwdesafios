@@ -1,0 +1,47 @@
+*{
+	padding:0;
+	margin:0;
+	font-family:verdana;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+}
+
+article{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+
+input, button{
+	font-size: 16px;
+	margin: 5px;
+	border-radius: 15%;
+	padding: 5px;
+}
+
+h1{
+	margin:0 auto;
+	text-align: center;
+}
+
+.btnAzul{
+	width: 100%;
+	background-color:lightblue;
+	color: white;
+}
+
+.btnVerde, .btnRojo{
+	width:47%;
+	color: white;
+}
+
+.btnVerde{
+	background-color:green;
+}
+
+.btnRojo{
+	background-color:red;
+}
